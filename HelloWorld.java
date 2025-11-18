@@ -45,7 +45,7 @@ public class HelloWorld {
     
     // SonarQube Violation: Thread.sleep in production code
     try {
-      Thread.sleep(1000);
+      Thread.sleep(1000)
     } catch (InterruptedException e) {
       // SonarQube Violation: Interrupted exception not properly handled
       e.printStackTrace();
