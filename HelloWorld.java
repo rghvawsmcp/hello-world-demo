@@ -1,8 +1,5 @@
 
 public class HelloWorld {
-
-  // SonarQube Violation: Unused import
-  import java.util.ArrayList;
   
   // SonarQube Violation: Class should have a proper comment
   public static void main(String[] args) {
